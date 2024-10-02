@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: SamsungSans-Bold;
+  src: url(./Assets/Fonts/SamsungSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: SamsungSans-Regular;
+  src: url(./Assets/Fonts/SamsungSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: SamsungSans-Medium;
+  src: url(./Assets/Fonts/SamsungSans-Medium.ttf);
+}
+
+header {
+  h1 {
+    font-family: "SamsungSans-Bold", "sans-serif";
+    margin-top: 10px;
+    margin-left: 715px;
+    font-size: 50px;
+  }
+  nav {
+    font-family: "SamsungSans-Regular", "sans-serif";
+    margin-top: 30px;
+
+    font-size: 25px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.681);
+}
+
+.mob {
+  margin-right: 80px;
+  margin-left: 570px;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+.tv {
+  margin-right: 90px;
+  margin-left: 90px;
+}
+
+.song {
+  margin-left: 60px;
+}
+
+.modal1 {
+  background-color: grayscale($color: #d4d3d3);
+  border-bottom: solid #d4d3d3 45px;
+  margin-top: 100px;
+  margin-left: 650px;
+  width: 500px;
+  height: 500px;
+  border-radius: 8px;
+
+  img {
+    margin-left: 90px;
+    margin-top: 30px;
+  }
+
+  h2 {
+    font-family: "SamsungSans-Medium", "sans-serif";
+    margin-top: 15px;
+    margin-left: 150px;
+  }
+}
+
+button {
+  font-family: "SamsungSans-Regular", "sans-serif";
+  padding: 10px 10px;
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+  margin-left: 200px;
+  margin-top: 15px;
+}
+
+.modal2 {
+  background-color: grayscale($color: #d4d3d3);
+  border-bottom: solid #d4d3d3 45px;
+  margin-top: 100px;
+  margin-left: 650px;
+  width: 500px;
+  height: 500px;
+  border-radius: 8px;
+
+  img {
+    margin-left: 90px;
+    margin-top: 30px;
+  }
+
+  h2 {
+    font-family: "SamsungSans-Medium", "sans-serif";
+    margin-top: 15px;
+    margin-left: 170px;
+  }
+}
+
+button {
+  font-family: "SamsungSans-Regular", "sans-serif";
+  padding: 10px 10px;
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+  margin-left: 200px;
+  margin-top: 15px;
+}
